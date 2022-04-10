@@ -1,0 +1,186 @@
+#kulso{
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+}
+
+body {
+    background: #dedede;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    height: 220vh;
+ }
+ .dropdwn{
+     margin: 0 auto;
+ }
+ nav{
+     height: 60px;
+     background: #2c3e50;
+     box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+     width: 100%;
+ }
+ .logo{
+     padding: 5px 0 0 80px;
+     width: 150px;
+     height: auto;
+ }
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display:inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    background: #243342;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;    
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul ul li{
+width: 150px;
+float: none;
+display: list-item;
+position: relative;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    left: 150px;    
+}
+
+.tav{
+margin-left: 15px;
+margin-right: 15px;
+}
+
+/* navbar end  */
+
+.info{
+    overflow: hidden;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px ;
+    }
+    
+    .info img{
+        width: 100%;
+        height: 100%;
+        transition: 2s;
+    }
+    
+    .info .caption{
+        position: absolute;
+        top: 500px;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.69);
+        transition: 0.7s;
+        text-align: center;
+    }
+    
+    .info .caption .content{
+        position: relative;
+        top: 21%;
+        color: #fff;
+    }
+    
+    .info .caption .content button{
+    border: 0;
+    background: #9a1919;
+    padding: 7px;
+    color: #fff;
+    }
+    
+    .info:hover .caption{
+        top: 0px;
+    }
+    
+    .info:hover img{
+        transform: scale(1.5);
+    }
+    
+    .content button{
+    height: 45px;
+    width: 80px;
+    margin-top: 20px;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    }
+    
+    .masodik{
+    height: 45px;
+    width: 80px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    }
+    
+#elso{
+    margin-left: 140px;
+}
+
+#also{
+    margin-top: 100px;
+}
+
+.fekete{
+background-color: #000;
+color: #fff;
+width: 100%;
+height: 150px;
+bottom: 0;
+font-size: large;
+position: relative;
+}
+
+.fekete ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.hely{
+background-color: transparent;
+width: 100%;
+height: 150px;
+bottom: 0;
+position: relative;
+
+}
